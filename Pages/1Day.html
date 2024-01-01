@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>60 Days Challenge - Node.js and Express</title>
+</head>
+
+<body class="bg-slate-800  font-sans">
+
+    <nav class="bg-gray-900 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white text-2xl font-bold">Madin Bloch</div>
+
+            <!-- Hamburger menu for mobile -->
+            <div class="block lg:hidden">
+                <button id="toggle-btn" class="text-white focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navbar links -->
+            <div class="hidden lg:flex space-x-4 text-xl">
+                <a href="../index.html" class="text-white">Home</a>
+                <a href="../60Days.html" class="text-white">60 Days Challage</a>
+                <a href="../hackthone.html" class="text-white">Hackthone 2K23</a>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="bg-gray-900 p-4 hidden ">
+        <div class="flex flex-col space-y-4 ml-3 text-xl">
+            <a href="../index.html" class="text-white">Home</a>
+            <a href="#about" class="text-white">About</a>
+            <a href="../60Days.html" class="text-white">60 Days Challage</a>
+            <a href="../hackthone.html" class="text-white">Hackthone 2K23</a>
+        </div>
+
+    </div>
+
+
+
+    <header class=" text-blue-400 py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-2xl font-bold mt-4">30 Days Challenge - JS </h1>
+        </div>
+    </header>
+
+    <div class="container mx-auto mt-8">
+
+        <!-- Day 1 -->
+        <div class="max-w-3xl mx-auto text-white rounded-md shadow-md overflow-hidden mb-8">
+            <div class="p-6">
+
+                <img src="day1-small.jpg" alt="Day 1" class="w-full rounded-md cursor-pointer"
+                    onclick="openModal('modal1')">
+                <!-- Modal -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal1')">&times;</span>
+                        <!-- Day 1 Content -->
+                        <h2 class="text-xl font-bold mb-2">Day 1 - Getting Started</h2>
+                        <p class="text-gray-700 mb-4">Today, I started my journey with Node.js and Express. Here's what
+                            I learned:</p>
+                        <div class="mb-4">
+                            <pre
+                                class="bg-gray-200 p-4 rounded-md"><code class="language-javascript">console.log('Hello, Node.js!');</code></pre>
+                        </div>
+                        <p class="text-gray-700">I learned how to set up a basic Express server and handle routes.
+                            Excited about the journey ahead!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

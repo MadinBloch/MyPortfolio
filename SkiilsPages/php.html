@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Project </title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .highlight {
+            background-color: #f3f3f3;
+        }
+
+        .code-block {
+            background-color: #f7fafc;
+            border: 1px solid #cbd5e0;
+            border-radius: 0.375rem;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            overflow-x: auto;
+        }
+
+        .image-container {
+            max-width: 100%;
+            margin: 2rem 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #e2e8f0;
+            padding: 0.75rem;
+            text-align: left;
+        }
+
+        @media only screen and (max-width: 700px) {
+
+            iframe {
+                width: 340px !important;
+                height: 300px;
+            }
+
+            #start {
+                flex-direction: column;
+            }
+
+            #start img {
+                margin-top: 14px;
+
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+
+            #start {
+                flex-direction: column;
+            }
+
+            #start img {
+                margin-top: 14px;
+
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-slate-800">
+    <nav class="bg-gray-900 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white text-2xl font-bold ">Madin Bloch</div>
+
+            <!-- Hamburger menu for mobile -->
+            <div class="block lg:hidden">
+                <button id="toggle-btn" class="text-white focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Navbar links -->
+            <div class="hidden lg:flex space-x-4 text-xl">
+                <a href="/index.html" class="text-white">Home</a>
+                <a href="../index.html#skills" class="text-white">Skills</a>
+                <a href="../30Days.html" class="text-white">30 Days Challage</a>
+                <a href="../hackthone.html" class="text-white">Hackthone 2K23</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="bg-gray-900 p-4 hidden text-xl">
+        <div class="flex flex-col space-y-4 ml-3">
+            <a href="/index.html" class="text-white">Home</a>
+            <a href="../index.html#skills" class="text-white">Skills</a>
+            <a href="../30Days.html" class="text-white">30 Days Challage</a>
+            <a href="../hackthone.html" class="text-white">Hackthone 2K23</a>
+        </div>
+    </div>
+
+
+
+    <!-- Header Section -->
+    <header class=" text-blue-400 text-center py-4">
+        <h1 class="text-4xl font-bold mt-5">PHP Showcase</h1>
+        <p class="mt-2">Exploring the Power of PHP</p>
+    </header>
+
+    <!-- Content Section -->
+    <section class="container mx-auto p-8 my-4">
+
+        <!-- Introduction to PHP -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-blue-400">PHP: Server-Side Scripting Language</h2>
+            <p class="text-lg text-white">
+                PHP is a widely-used server-side scripting language that is especially suited for web development. It is
+                embedded in HTML code and executed on the server, generating dynamic content for web pages.
+            </p>
+        </div>
+
+        <!-- Key Topics in PHP -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-blue-400">Key Topics in PHP that I Know </h2>
+            <ul class="list-item pl-5 text-lg">
+                <li class="text-white">1. **Variables and Data Types:** Learn how to declare variables and work with
+                    different data types.</li>
+                <li class="text-white">2. **Control Structures:** Understand if statements, loops, and switch
+                    statements for flow control.</li>
+                <li class="text-white">3. **Functions:** Explore the creation and use of functions in PHP.</li>
+                <li class="text-white">4. **Arrays:** Learn about indexed arrays, associative arrays, and array
+                    functions.</li>
+                <li class="text-white">5. **Database Interaction:** Connect to databases and perform CRUD operations
+                    with PHP.</li>
+            </ul>
+        </div>
+
+        <!-- Showcase Your PHP Project -->
+        <div class="mb-8">
+            <h2 class="text-4xl font-bold mb-4 text-blue-400">Showcase My PHP Project</h2>
+            <p class="text-lg text-white">
+                Explore a project created using PHP. Watch the video to see how PHP was applied, and gain insights into
+                the development process.
+            </p>
+            <div class="mt-9 flex justify-between" id="start">
+                <!-- YouTube Video Embeds for PHP Project -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yLy_fBdOT7M?si=xtMyB6sbIxgwDYaf"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+        <h2 class="text-4xl font-bold mb-4 text-blue-400">Php Payment Integrated</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-fUR7kieisU?si=W5P083JdayT4Kuza"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <!-- GitHub Repository Section -->
+        <div class="mb-8">
+            <a href="/index.html#skills" class="font-bold text-indigo-500">
+                <h2 class="text-2xl font-bold mt-5 text-blue-400">See More Skills..</h2>
+            </a>
+        </div>
+
+    </section>
+
+
+    <div
+        class="font-baiJamjuree px-7 md:px-24 py-8 lg:py-14 bg-footer-section text-whitePrimary flex flex-col lg:flex-row gap-10 lg:gap-0 justify-between items-center">
+        <!-- Left Section -->
+        <div class="left-up">
+            <div class="logo heading uppercase font-semibold text-3xl md:text-4xl text-whiteSecondary z-20 text-white">Madin
+                Bloch
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-down w-full lg:w-1/2 flex flex-col gap-10">
+            <!-- Social Icons Section -->
+            <div class="flex flex-col gap-7">
+                <div class="social-icons flex gap-6 justify-center lg:justify-end items-center">
+                    <!-- WhatsApp Icon -->
+                    <a href="https://wa.me/+919510299312" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/whatpp.jpg" alt="WhatsApp Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- GitHub Icon -->
+                    <a href="https://github.com/MadinBloch" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/github.png" alt="GitHub Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- Instagram Icon -->
+                    <a href="https://www.instagram.com/madinbloch/" class="w-[10%] lg:w-[7%] z-10 tap-transp"
+                        target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/insat2.jpg" alt="Instagram Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- Gmail Icon -->
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=madinkhan0633.com"
+                        target="_blank" class="w-[10%] lg:w-[7%] z-10 tap-transp">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/gmail3.png" alt="Gmail Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/madin-bloch/" class="w-[10%] lg:w-[7%] z-10 tap-transp"
+                        target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/linked.png" alt="LinkedIn Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                </div>
+                <!-- Copyright Text -->
+                <div class="copyright flex justify-center lg:justify-end capitalize font-inter text-white">
+                    Copyright © 2023. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

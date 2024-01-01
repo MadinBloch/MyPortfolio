@@ -1,0 +1,39 @@
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.9);
+  }
+
+  100% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  }
+}
+
+/* Apply the animation to the glowing effect */
+.glow {
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.9);
+  }
+
+  100% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  }
+}
+
+/* Apply the animation to the glowing effect */
+.glow-container {
+  animation: glow 2s infinite;
+  border-radius: 16px; /* Add border-radius for a rounded look */
+  overflow: hidden;
+}
