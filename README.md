@@ -1,7 +1,7 @@
 # My Portfolio
 
 ## Live Link
-Explore my portfolio: [Live Portfolio](https://your-username.github.io/myPortfolio)
+Explore my portfolio: [Live Portfolio](https://madinbloch.vercel.app/)
 
 Welcome to my GitHub repository for my personal portfolio. This portfolio showcases my skills, projects, and provides an overview of who I am as a developer.
 
