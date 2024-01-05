@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>React Project </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>React Project Showcase</title>
 </head>
 
 <body class="bg-slate-800 font-sans">
@@ -44,20 +45,20 @@
         </div>
     </div>
 
-    <!-- Main Content: Coming Soon -->
-    <div class="max-w-2xl mx-auto">
-        <h1 class="text-3xl font-bold mb-4">My Projects Showcase</h1>
+    <!-- Main Content: Project Showcase -->
+    <div class="container mx-auto py-8 px-4">
+        <h1 class="text-3xl font-bold mb-6 text-white">My Projects Showcase</h1>
 
         <!-- Project 1 -->
         <div class="mb-8">
-            <h2 class="text-2xl font-semibold mb-2">CounterApp</h2>
-            <p class="text-gray-600 mb-4">A simple React application demonstrating basic state management with increment,
+            <h2 class="text-2xl font-semibold mb-2 text-white">CounterApp</h2>
+            <p class="text-gray-300 mb-4">A simple React application demonstrating basic state management with increment,
                 decrement, and reset functionality.</p>
 
-            <img src="path/to/counterApp-image.jpg" alt="CounterApp Preview" class="rounded-lg w-full h-auto mb-4">
+            <img src="../images/CounterApp.png" alt="CounterApp Preview" class="rounded-lg w-full h-auto mb-4">
 
-            <p class="text-gray-600">What I've Learned:</p>
-            <ul class="list-disc ml-6 mb-4">
+            <p class="text-gray-300">What I've Learned:</p>
+            <ul class="list-disc ml-6 mb-4 text-gray-300">
                 <li>Explored React fundamentals - components, state, props.</li>
                 <!-- Add more learned points if needed -->
             </ul>
@@ -67,14 +68,14 @@
 
         <!-- Project 2 -->
         <div>
-            <h2 class="text-2xl font-semibold mb-2">BgColorChanger</h2>
-            <p class="text-gray-600 mb-4">A React application allowing dynamic background color changes with a button
+            <h2 class="text-2xl font-semibold mb-2 text-white">BgColorChanger</h2>
+            <p class="text-gray-300 mb-4">A React application allowing dynamic background color changes with a button
                 click.</p>
 
-            <img src="path/to/bgColorChanger-image.jpg" alt="BgColorChanger Preview" class="rounded-lg w-full h-auto mb-4">
+            <img src="../images/BgColorChanger.png" alt="BgColorChanger Preview" class="rounded-lg w-full h-auto mb-4">
 
-            <p class="text-gray-600">What I've Learned:</p>
-            <ul class="list-disc ml-6 mb-4">
+            <p class="text-gray-300">What I've Learned:</p>
+            <ul class="list-disc ml-6 mb-4 text-gray-300">
                 <li>Implemented dynamic background color changes in React.</li>
                 <!-- Add more learned points if needed -->
             </ul>
@@ -83,65 +84,64 @@
         </div>
     </div>
 
-    <div
-    class="font-baiJamjuree px-7 md:px-24 py-8 lg:py-14 bg-footer-section text-whitePrimary flex flex-col lg:flex-row gap-10 lg:gap-0 justify-between items-center">
-    <!-- Left Section -->
-    <div class="left-up">
-        <div class="logo heading uppercase font-semibold text-3xl md:text-4xl text-whiteSecondary z-20">Madin Bloch
+    <!-- Footer Section -->
+    <div class="font-baiJamjuree px-4 md:px-24 py-8 lg:py-14 bg-footer-section text-whitePrimary flex flex-col lg:flex-row gap-10 lg:gap-0 justify-between items-center">
+        <!-- Left Section -->
+        <div class="left-up">
+            <div class="logo heading uppercase font-semibold text-3xl md:text-4xl text-whiteSecondary z-20">Madin Bloch
+            </div>
         </div>
-    </div>
 
-    <!-- Right Section -->
-    <div class="right-down w-full lg:w-1/2 flex flex-col gap-10">
-        <!-- Social Icons Section -->
-        <div class="flex flex-col gap-7">
-            <div class="social-icons flex gap-6 justify-center lg:justify-end items-center">
-                <!-- WhatsApp Icon -->
-                <a href="https://wa.me/+919510299312" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
-                    <div class="cursor-pointer w-full">
-                        <img src="/images/whatpp.jpg" alt="WhatsApp Icon"
-                            class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
-                    </div>
-                </a>
-                <!-- GitHub Icon -->
-                <a href="https://github.com/MadinBloch" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
-                    <div class="cursor-pointer w-full">
-                        <img src="/images/github.png" alt="GitHub Icon"
-                            class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
-                    </div>
-                </a>
-                <!-- Instagram Icon -->
-                <a href="https://www.instagram.com/madinbloch/" class="w-[10%] lg:w-[7%] z-10 tap-transp"
-                    target="_blank">
-                    <div class="cursor-pointer w-full">
-                        <img src="/images/insat2.jpg" alt="Instagram Icon"
-                            class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
-                    </div>
-                </a>
-                <!-- Gmail Icon -->
-                <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=madinkhan0633.com"
-                    target="_blank" class="w-[10%] lg:w-[7%] z-10 tap-transp">
-                    <div class="cursor-pointer w-full">
-                        <img src="/images/gmail3.png" alt="Gmail Icon"
-                            class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
-                    </div>
-                </a>
-                <!-- LinkedIn Icon -->
-                <a href="https://www.linkedin.com/in/madin-bloch/" class="w-[10%] lg:w-[7%] z-10 tap-transp"
-                    target="_blank">
-                    <div class="cursor-pointer w-full">
-                        <img src="/images/linked.png" alt="LinkedIn Icon"
-                            class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
-                    </div>
-                </a>
-            </div>
-            <!-- Copyright Text -->
-            <div class="copyright flex justify-center lg:justify-end capitalize font-inter text-lightGrey">
-                Copyright © 2023. All Rights Reserved
+        <!-- Right Section -->
+        <div class="right-down w-full lg:w-1/2 flex flex-col gap-10">
+            <!-- Social Icons Section -->
+            <div class="flex flex-col gap-7">
+                <div class="social-icons flex gap-6 justify-center lg:justify-end items-center">
+                    <!-- WhatsApp Icon -->
+                    <a href="https://wa.me/+919510299312" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/whatsapp-icon.jpg" alt="WhatsApp Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- GitHub Icon -->
+                    <a href="https://github.com/MadinBloch" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/github-icon.png" alt="GitHub Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- Instagram Icon -->
+                    <a href="https://www.instagram.com/madinbloch/" class="w-[10%] lg:w-[7%] z-10 tap-transp"
+                        target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/instagram-icon.jpg" alt="Instagram Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- Gmail Icon -->
+                    <a href="mailto:madinkhan0633.com" class="w-[10%] lg:w-[7%] z-10 tap-transp" target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/gmail-icon.png" alt="Gmail Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                    <!-- LinkedIn Icon -->
+                    <a href="https://www.linkedin.com/in/madin-bloch/" class="w-[10%] lg:w-[7%] z-10 tap-transp"
+                        target="_blank">
+                        <div class="cursor-pointer w-full">
+                            <img src="/images/linkedin-icon.png" alt="LinkedIn Icon"
+                                class="hover:shadow-lg hover:shadow-gradientPurple rounded-xl w-full">
+                        </div>
+                    </a>
+                </div>
+                <!-- Copyright Text -->
+                <div class="copyright flex justify-center lg:justify-end capitalize font-inter text-lightGrey">
+                    Copyright © 2023. All Rights Reserved
+                </div>
             </div>
         </div>
     </div>
-</div>
 
     <script src="../script.js"></script>
 </body>
