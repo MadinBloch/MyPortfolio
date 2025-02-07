@@ -556,11 +556,14 @@ video {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
+    margin: auto;
+
   }
 }
 
 @media (min-width: 768px) {
   .container {
+    margin: auto;
     max-width: 768px;
   }
 }
@@ -568,6 +571,8 @@ video {
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
+    margin: auto;
+
   }
 }
 
@@ -581,6 +586,8 @@ video {
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
+    margin: auto;
+
   }
 }
 
@@ -1057,6 +1064,7 @@ video {
 
 .underline {
   text-decoration-line: underline;
+  margin-top: 8%;
 }
 
 .opacity-0 {
