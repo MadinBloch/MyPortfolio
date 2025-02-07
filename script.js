@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     const textElement = document.getElementById('typed-text');
-    const texts = ['Hi, I\'m Madin Bloch', 'Web Developer', 'Full Stack Developer']; // Add your desired texts here
+    const texts = ['Hi, I\'m Madin Bloch', 'Laravel Developer', ]; // Add your desired texts here
     let index = 0;
     let letterIndex = 0;
 
